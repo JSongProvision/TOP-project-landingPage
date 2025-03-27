@@ -1,0 +1,33 @@
+body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction:column;
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.nav {
+    display:flex;
+}
+
+img {
+ height:100px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
