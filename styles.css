@@ -6,35 +6,57 @@ body {
     font-family: roboto, sans-serif;
 }
 
-.header {
-    display:flex;
-    flex-direction: column;
+.header-container{
     background-color: #1F2937;
     color: #F9FAF8;
-    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
 }
 
-.nav {
+.nav img{
+    height:50px;
+   }
+
+.nav, .hero {
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    gap: 20px;
 }
 
-.hero-container {
+.hero-img {
+  flex: 1;
+  width: 400px;
+  height: auto;
+}
+
+.hero-cta {
     display: flex;
+    flex-direction: column;
 }
 
 .hero-header {
     font-size: 48px;
     font-weight: 900;
+    margin:0;
 }
 
-.hero-img {
-
+.hero-cta p {
+    margin: 5px;
 }
 
-img {
- height:50px;
+button {
+    background-color: #3883F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
 }
 
 ul {
