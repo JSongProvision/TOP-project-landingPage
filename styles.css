@@ -142,9 +142,49 @@ body {
 
 .cta-content {
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    height: 150px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 5px;
+    padding:0;
 }
 
+.cta-header {
+    font-weight: bold;
+    font-size: 26px;
+    padding:0;
+    margin:0;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+}
+
+.cta-text {
+    padding:0;
+    margin:0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 10vh;
+}
 ul {
     display: flex;
     gap: 16px;
